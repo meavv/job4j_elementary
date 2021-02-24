@@ -8,8 +8,6 @@ public class Fitness {
             ivan *= 3;
             month += 1;
             System.out.println(month);
-
-
         }
         return month;
     }
