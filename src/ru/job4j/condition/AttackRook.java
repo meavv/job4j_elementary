@@ -10,11 +10,7 @@ public class AttackRook {
         if (left1 == right1) {
             return true;
         }
-        if (left2 == right2) {
-            return true;
-        } else {
-            return false;
-        }
+        return left2 == right2;
 
-    }
+        }
 }
