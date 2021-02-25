@@ -11,7 +11,7 @@ public class EvenCheck {
     public static void main(String[] args) {
         int num = 2;
 
-        System.out.println( EvenCheck.check(num));
+        System.out.println(EvenCheck.check(num));
     }
 
 }

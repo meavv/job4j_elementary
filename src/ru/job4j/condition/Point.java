@@ -7,7 +7,6 @@ public class Point {
 
         double rsl = Math.sqrt(x + y);
 
-
         return rsl;
     }
 

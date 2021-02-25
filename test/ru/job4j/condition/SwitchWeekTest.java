@@ -13,18 +13,21 @@ public class SwitchWeekTest {
         String out = SwitchWeek.nameOfDay(1);
         Assert.assertEquals(expected, out);
     }
+
     @Test
     public void nameOfDay4() {
         String expected = "Четверг";
         String out = SwitchWeek.nameOfDay(4);
         Assert.assertEquals(expected, out);
     }
+
     @Test
     public void nameOfDay7() {
         String expected = "Воскресенье";
         String out = SwitchWeek.nameOfDay(7);
         Assert.assertEquals(expected, out);
     }
+
     @Test
     public void nameOfDay10() {
         String expected = "Ошибка";

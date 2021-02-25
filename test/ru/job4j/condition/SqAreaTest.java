@@ -14,6 +14,7 @@ public class SqAreaTest {
 
         Assert.assertEquals(expected, out, 0.01);
     }
+
     @Test
     public void squarewhen78then2() {
         int p = 7;
@@ -23,6 +24,7 @@ public class SqAreaTest {
 
         Assert.assertEquals(expected, out, 0.01);
     }
+
     @Test
     public void squarewhen89then2() {
         int p = 8;
