@@ -11,7 +11,8 @@ public class Machine {
         for (int i = 0; i < coins.length; i++) {
             while ((sdacha - coins[i]) >= 0) {
                 sdacha = sdacha - coins[i];
-                rsl[size++] = coins[i];
+                rsl[size] = coins[i];
+                size = i + 1;
             }
         }
         return Arrays.copyOf(rsl, size);
