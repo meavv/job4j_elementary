@@ -5,7 +5,7 @@ public class SectionCount {
         int rsl = 1;
         while (length - section >= section) {
             section += section;
-            rsl +=1;
+            rsl += 1;
 
         }
         return rsl;

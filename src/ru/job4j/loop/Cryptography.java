@@ -1,6 +1,5 @@
 package ru.job4j.loop;
 
-
 public class Cryptography {
     public static String code(String s) {
         int x = s.length() - 4;
@@ -10,8 +9,7 @@ public class Cryptography {
         }
         if (s.length() < 4) {
             s = s;
-        }
-        else {
+        } else {
             for (int i = 0; i < x; i++) {
                 ss.setCharAt(i, '#');
                 s = ss.toString();

@@ -6,6 +6,6 @@ public class DegreeLoop {
         for (int i = 1; i <= n; i++) {
             result = result * a;
         }
-        return result ;
+        return result;
     }
 }
